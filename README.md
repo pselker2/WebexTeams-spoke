@@ -43,6 +43,7 @@ The solution will need a Webex Teams access token to send the message from Servi
 4. Click on **Create a Bot** button
 5. Fill in the information and click **Add Bot** button at the bottom of the page
 6. Save the "Bot's Access Token" in a safe place
+![alt text](App_Bot_Token.png)
 
 ---
 
@@ -72,6 +73,7 @@ The solution will need a Webex Teams access token to send the message from Servi
         - Paste the "id" of the Team from step 6 into the **teamId** parameter
         - Click the yellow **Run** button on the right side
         - Copy the "id" of the Room that contains your Bot
+9. **Alternatively** you can add the roomid@webex.bot bot to the room and it will send you the roomId in a private message and then remove itself from the room
 
 ---
 
