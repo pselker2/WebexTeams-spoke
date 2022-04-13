@@ -86,7 +86,7 @@ The solution will need a Webex Teams access token to send the message from Servi
 2. ServiceNow **Navigator** > Connections & Credentials > Connections 
     - Click **WebexTeams_API**
     - In the Connection alias field select **x_305159_webex_tea.WebexTeams_alias**
-    - In the Connection URL field type **https://api.ciscospark.com/**
+    - In the Connection URL field type **https://webexapis.com/**
     - Click **Update**
 3. ServiceNow **Studio** Under Actions click **Send Message to Webex Teams** (Pop-up window with Flow Designer opens)
     - In Flow Designer under "Action Outline" click on **Inputs**
