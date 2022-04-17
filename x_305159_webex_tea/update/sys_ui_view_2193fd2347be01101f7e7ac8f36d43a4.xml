@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>catalog_cms_master_service_catalog</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-17 17:59:29</sys_created_on>
+        <sys_id>2193fd2347be01101f7e7ac8f36d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMS Master Service Catalog View</sys_name>
+        <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_update_name>sys_ui_view_2193fd2347be01101f7e7ac8f36d43a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-17 17:59:29</sys_updated_on>
+        <title>CMS Master Service Catalog View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

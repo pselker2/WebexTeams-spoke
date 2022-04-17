@@ -10,21 +10,21 @@
         <copied_from/>
         <copied_from_name/>
         <description>Send Message to Webex Teams space</description>
-        <ih_action>false</ih_action>
+        <ih_action>true</ih_action>
         <internal_name>send_message_to_webex_teams</internal_name>
         <label_cache>[{"name":"{{action.messagetowebexteams}}","label":"action➛MessageToWebexTeams","type":"action","ref":""},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action.roomid}}","label":"action➛roomId_value","type":"action","ref":""},{"name":"{{action.roomid_value}}","label":"action➛roomId_value","type":"action","ref":""}]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <master_snapshot>f998b3c647f201101f7e7ac8f36d437e</master_snapshot>
         <name>Send Message to Webex Teams</name>
         <natlang/>
         <outputs/>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-01 15:21:20</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>081d790ddba01010fc011fc7689619fe</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Send Message to Webex Teams</sys_name>
         <sys_overrides/>
         <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_081d790ddba01010fc011fc7689619fe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-03 10:33:41</sys_updated_on>
+        <sys_updated_on>2022-04-17 19:49:29</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -52,16 +52,11 @@
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-02 12:34:50</sys_created_on>
         <sys_id>fe80e6d9db6c1010fc011fc7689619dc</sys_id>
         <sys_mod_count>14</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-03 10:33:41</sys_updated_on>
     </sys_hub_step_instance>
@@ -78,7 +73,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-03 10:33:41</sys_updated_on>
         <value>{}</value>
-        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -92,7 +87,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-02 17:28:14</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -106,7 +101,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-02 17:19:21</sys_updated_on>
         <value>use_connection_alias</value>
-        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -120,7 +115,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -134,7 +129,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-03 10:15:43</sys_updated_on>
         <value>name=</value>
-        <variable display_value="">3684ec4787d01300dd637d5e27cb0bcb</variable>
+        <variable display_value="Form URL Encoded">3684ec4787d01300dd637d5e27cb0bcb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -148,7 +143,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-02 17:19:21</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -162,7 +157,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-02 17:19:21</sys_updated_on>
         <value>efd4a29ddb6c1010fc011fc7689619c8</value>
-        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -176,7 +171,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
         <value>post</value>
-        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -190,7 +185,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
         <value>https://api.ciscospark.com/</value>
-        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -204,7 +199,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
         <value>v1/messages</value>
-        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -218,7 +213,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-02 17:53:43</sys_updated_on>
         <value>form-url-encoded</value>
-        <variable display_value="">bc79234a87d01300dd637d5e27cb0b24</variable>
+        <variable display_value="Request Type">bc79234a87d01300dd637d5e27cb0b24</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -232,7 +227,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=fe80e6d9db6c1010fc011fc7689619dc"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -480,7 +475,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>Y2lzY29zcGFyazovL3VzL1JPT00vZGM3NGJhMzAtOGM2ZS0xMWVhLTg4MTMtYTc1Y2EwZGFmNGM2</default_value>
+        <default_value>Y2lzY29zcGFyazovL3VzL1JPT00vYzM2OTI4ZjAtYjcyMy0xMWVjLWFmMWUtYjc1NjQzYThhNGI4</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -524,14 +519,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 10:26:36</sys_created_on>
         <sys_id>1acc07addb285010fc011fc76896191a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-03 10:26:36</sys_updated_on>
+        <sys_updated_on>2022-04-13 09:10:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -624,9 +619,109 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_step_instance action="delete_multiple" query="action=081d790ddba01010fc011fc7689619fe^sys_idNOT INfe80e6d9db6c1010fc011fc7689619dc"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_081d790ddba01010fc011fc7689619fe^sys_idNOT INdecc07addb285010fc011fc768961921,f8a80fe9db285010fc011fc768961912"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>roomid_value</element>
+        <help/>
+        <hint>Webex Teams roomId (found using developer.webex.com documentation)</hint>
+        <label>roomId_value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_081d790ddba01010fc011fc7689619fe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 10:26:36</sys_created_on>
+        <sys_id>decc07addb285010fc011fc768961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>roomId_value</sys_name>
+        <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 10:26:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>messagetowebexteams</element>
+        <help/>
+        <hint>Message to send to Webex Teams space</hint>
+        <label>MessageToWebexTeams</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_081d790ddba01010fc011fc7689619fe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 10:08:29</sys_created_on>
+        <sys_id>f8a80fe9db285010fc011fc768961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MessageToWebexTeams</sys_name>
+        <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 10:08:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=081d790ddba01010fc011fc7689619fe^sys_idNOT IN5a98f3c647f201101f7e7ac8f36d431d"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Send Message to Webex Teams">081d790ddba01010fc011fc7689619fe</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"5a98f3c647f201101f7e7ac8f36d431d","name":"plan"}}</plan>
+        <snapshot>fd98b3c647f201101f7e7ac8f36d43b0</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 11:49:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a98f3c647f201101f7e7ac8f36d431d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 11:49:43</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Send Message to Webex Teams space</description>
+        <internal_name>send_message_to_webex_teams</internal_name>
+        <label_cache>[{"name":"{{action.messagetowebexteams}}","label":"action➛MessageToWebexTeams","type":"action","ref":""},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action.roomid}}","label":"action➛roomId_value","type":"action","ref":""},{"name":"{{action.roomid_value}}","label":"action➛roomId_value","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Send Message to Webex Teams</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Send Message to Webex Teams">081d790ddba01010fc011fc7689619fe</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 11:49:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f998b3c647f201101f7e7ac8f36d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 11:49:41</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=f998b3c647f201101f7e7ac8f36d437e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f998b3c647f201101f7e7ac8f36d437e"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=f998b3c647f201101f7e7ac8f36d437e^sys_idNOT IN7998b3c647f201101f7e7ac8f36d4395"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Send Message to Webex Teams">081d790ddba01010fc011fc7689619fe</action>
+        <action display_value="Send Message to Webex Teams">f998b3c647f201101f7e7ac8f36d437e</action>
         <cid>4793272a-c76e-41ee-9c49-5fa84eafb986</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -638,334 +733,303 @@
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>fe80e6d9db6c1010fc011fc7689619dc</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_created_on>2022-04-13 11:49:41</sys_created_on>
+        <sys_id>7998b3c647f201101f7e7ac8f36d4395</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-03 10:33:41</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=fe80e6d9db6c1010fc011fc7689619dc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7998b3c647f201101f7e7ac8f36d4395"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>fe80e6d9db6c1010fc011fc7689619dc</document_key>
-        <order>25</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>3280e6d9db6c1010fc011fc7689619ef</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-03 10:33:41</sys_updated_on>
-        <value>{}</value>
-        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>fe80e6d9db6c1010fc011fc7689619dc</document_key>
-        <order>30</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>3680e6d9db6c1010fc011fc7689619ee</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 17:28:14</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>fe80e6d9db6c1010fc011fc7689619dc</document_key>
-        <order>5</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>7280e6d9db6c1010fc011fc7689619ee</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 17:19:21</sys_updated_on>
-        <value>use_connection_alias</value>
-        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>fe80e6d9db6c1010fc011fc7689619dc</document_key>
-        <order>12</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>7e80e6d9db6c1010fc011fc7689619ee</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>fe80e6d9db6c1010fc011fc7689619dc</document_key>
-        <order>45</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 17:53:43</sys_created_on>
-        <sys_id>8e896bd5db205010fc011fc76896193f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-03 10:15:43</sys_updated_on>
-        <value>name=</value>
-        <variable display_value="">3684ec4787d01300dd637d5e27cb0bcb</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>fe80e6d9db6c1010fc011fc7689619dc</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 17:19:21</sys_created_on>
-        <sys_id>a6a1eb91db205010fc011fc7689619d9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 17:19:21</sys_updated_on>
-        <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>fe80e6d9db6c1010fc011fc7689619dc</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 17:19:21</sys_created_on>
-        <sys_id>aea1eb91db205010fc011fc7689619d9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 17:19:21</sys_updated_on>
-        <value>efd4a29ddb6c1010fc011fc7689619c8</value>
-        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>fe80e6d9db6c1010fc011fc7689619dc</document_key>
-        <order>25</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>b680e6d9db6c1010fc011fc7689619ed</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
-        <value>post</value>
-        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>fe80e6d9db6c1010fc011fc7689619dc</document_key>
-        <order>15</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>ba80e6d9db6c1010fc011fc7689619ee</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
-        <value>https://api.ciscospark.com/</value>
-        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>fe80e6d9db6c1010fc011fc7689619dc</document_key>
-        <order>20</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>be80e6d9db6c1010fc011fc7689619ed</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
-        <value>v1/messages</value>
-        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>fe80e6d9db6c1010fc011fc7689619dc</document_key>
-        <order>40</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 17:53:43</sys_created_on>
-        <sys_id>ca896bd5db205010fc011fc76896193f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 17:53:43</sys_updated_on>
-        <value>form-url-encoded</value>
-        <variable display_value="">bc79234a87d01300dd637d5e27cb0b24</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>fe80e6d9db6c1010fc011fc7689619dc</document_key>
+        <document_key>7998b3c647f201101f7e7ac8f36d4395</document_key>
         <order>13</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>f680e6d9db6c1010fc011fc7689619ee</sys_id>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>3198b3c647f201101f7e7ac8f36d43ab</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=fe80e6d9db6c1010fc011fc7689619dc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7998b3c647f201101f7e7ac8f36d4395</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>3598b3c647f201101f7e7ac8f36d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
+        <value>efd4a29ddb6c1010fc011fc7689619c8</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7998b3c647f201101f7e7ac8f36d4395</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>7198b3c647f201101f7e7ac8f36d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7998b3c647f201101f7e7ac8f36d4395</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>7998b3c647f201101f7e7ac8f36d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7998b3c647f201101f7e7ac8f36d4395</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>7d98b3c647f201101f7e7ac8f36d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7998b3c647f201101f7e7ac8f36d4395</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>b598b3c647f201101f7e7ac8f36d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7998b3c647f201101f7e7ac8f36d4395</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>b998b3c647f201101f7e7ac8f36d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
+        <value>v1/messages</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7998b3c647f201101f7e7ac8f36d4395</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>bd98b3c647f201101f7e7ac8f36d43a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7998b3c647f201101f7e7ac8f36d4395</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>f198b3c647f201101f7e7ac8f36d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
+        <value>https://api.ciscospark.com/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7998b3c647f201101f7e7ac8f36d4395</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>f598b3c647f201101f7e7ac8f36d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
+        <value>name=</value>
+        <variable display_value="Form URL Encoded">3684ec4787d01300dd637d5e27cb0bcb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7998b3c647f201101f7e7ac8f36d4395</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>f998b3c647f201101f7e7ac8f36d43a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
+        <value>form-url-encoded</value>
+        <variable display_value="Request Type">bc79234a87d01300dd637d5e27cb0b24</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7998b3c647f201101f7e7ac8f36d4395"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>
-        <id>fe80e6d9db6c1010fc011fc7689619dc</id>
+        <id>7998b3c647f201101f7e7ac8f36d4395</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>7280e6d9db6c1010fc011fc7689619ed</sys_id>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>b598b3c647f201101f7e7ac8f36d43a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>base_url</field>
-        <id>fe80e6d9db6c1010fc011fc7689619dc</id>
+        <id>7998b3c647f201101f7e7ac8f36d4395</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>be80e6d9db6c1010fc011fc7689619ec</sys_id>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>f198b3c647f201101f7e7ac8f36d43a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>capabilities</field>
-        <id>fe80e6d9db6c1010fc011fc7689619dc</id>
+        <id>7998b3c647f201101f7e7ac8f36d4395</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>fa80e6d9db6c1010fc011fc7689619ec</sys_id>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>3198b3c647f201101f7e7ac8f36d43a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection</field>
-        <id>fe80e6d9db6c1010fc011fc7689619dc</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>7680e6d9db6c1010fc011fc7689619ec</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>connection_alias</field>
-        <id>fe80e6d9db6c1010fc011fc7689619dc</id>
+        <id>7998b3c647f201101f7e7ac8f36d4395</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 17:19:21</sys_created_on>
-        <sys_id>22a1eb91db205010fc011fc7689619d9</sys_id>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>3598b3c647f201101f7e7ac8f36d43a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 17:19:21</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>form_URL_encoded_map</field>
-        <id>fe80e6d9db6c1010fc011fc7689619dc</id>
+        <id>7998b3c647f201101f7e7ac8f36d4395</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 17:53:43</sys_created_on>
-        <sys_id>4a896bd5db205010fc011fc76896193f</sys_id>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>f598b3c647f201101f7e7ac8f36d43a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 17:53:43</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
-        <id>fe80e6d9db6c1010fc011fc7689619dc</id>
+        <id>7998b3c647f201101f7e7ac8f36d4395</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>3a80e6d9db6c1010fc011fc7689619ec</sys_id>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>7d98b3c647f201101f7e7ac8f36d43a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>http_method</field>
-        <id>fe80e6d9db6c1010fc011fc7689619dc</id>
+        <id>7998b3c647f201101f7e7ac8f36d4395</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>fa80e6d9db6c1010fc011fc7689619eb</sys_id>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>7198b3c647f201101f7e7ac8f36d43a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>query_params</field>
-        <id>fe80e6d9db6c1010fc011fc7689619dc</id>
+        <id>7998b3c647f201101f7e7ac8f36d4395</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>3680e6d9db6c1010fc011fc7689619ed</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>7998b3c647f201101f7e7ac8f36d43a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-03 10:33:41</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{"type":"ADV_NV","value":[{"name":"roomId","value":"{{action.roomid_value}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"markdown","value":"{{action.messagetowebexteams}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>request_type</field>
-        <id>fe80e6d9db6c1010fc011fc7689619dc</id>
+        <id>7998b3c647f201101f7e7ac8f36d4395</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 17:53:43</sys_created_on>
-        <sys_id>86896bd5db205010fc011fc76896193f</sys_id>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>f998b3c647f201101f7e7ac8f36d43a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 17:53:43</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>resource_path</field>
-        <id>fe80e6d9db6c1010fc011fc7689619dc</id>
+        <id>7998b3c647f201101f7e7ac8f36d4395</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 12:34:50</sys_created_on>
-        <sys_id>b280e6d9db6c1010fc011fc7689619ec</sys_id>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>b998b3c647f201101f7e7ac8f36d43a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 12:34:50</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>retry_policy</field>
-        <id>fe80e6d9db6c1010fc011fc7689619dc</id>
+        <id>7998b3c647f201101f7e7ac8f36d4395</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 17:19:21</sys_created_on>
-        <sys_id>6aa1eb91db205010fc011fc7689619d8</sys_id>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>bd98b3c647f201101f7e7ac8f36d43a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 17:19:21</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=fe80e6d9db6c1010fc011fc7689619dc^sys_idNOT IN2aa1eb91db205010fc011fc7689619c9"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7998b3c647f201101f7e7ac8f36d4395^sys_idNOT INb198b3c647f201101f7e7ac8f36d439c"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1005,10 +1069,10 @@
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="POST message to Webex Teams REST API">fe80e6d9db6c1010fc011fc7689619dc</model>
-        <model_id>fe80e6d9db6c1010fc011fc7689619dc</model_id>
+        <model display_value="POST message to Webex Teams REST API">7998b3c647f201101f7e7ac8f36d4395</model>
+        <model_id>7998b3c647f201101f7e7ac8f36d4395</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_fe80e6d9db6c1010fc011fc7689619dc</name>
+        <name>var__m_sys_hub_step_ext_output_7998b3c647f201101f7e7ac8f36d4395</name>
         <next_element/>
         <order>7</order>
         <primary>false</primary>
@@ -1026,16 +1090,16 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-02 17:19:20</sys_created_on>
-        <sys_id>2aa1eb91db205010fc011fc7689619c9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2022-04-13 11:49:42</sys_created_on>
+        <sys_id>b198b3c647f201101f7e7ac8f36d439c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-02 17:28:14</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1047,51 +1111,218 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_081d790ddba01010fc011fc7689619fe^sys_idNOT INdecc07addb285010fc011fc768961921,f8a80fe9db285010fc011fc768961912"/>
+    <sys_hub_action_input action="delete_multiple" query="model=f998b3c647f201101f7e7ac8f36d437e^sys_idNOT IN7198b3c647f201101f7e7ac8f36d438b,7598b3c647f201101f7e7ac8f36d4381"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0c8c8e4a-0456-4c88-ad37-f4d05e4174a0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Y2lzY29zcGFyazovL3VzL1JPT00vYzM2OTI4ZjAtYjcyMy0xMWVjLWFmMWUtYjc1NjQzYThhNGI4</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>roomid_value</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>roomId_value</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send Message to Webex Teams">f998b3c647f201101f7e7ac8f36d437e</model>
+        <model_id>f998b3c647f201101f7e7ac8f36d437e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_f998b3c647f201101f7e7ac8f36d437e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 11:49:41</sys_created_on>
+        <sys_id>7198b3c647f201101f7e7ac8f36d438b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 11:49:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f8a82410-5e43-49a4-93a1-5139ae23b025</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Message from ServiceNow</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>messagetowebexteams</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>MessageToWebexTeams</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send Message to Webex Teams">f998b3c647f201101f7e7ac8f36d437e</model>
+        <model_id>f998b3c647f201101f7e7ac8f36d437e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_f998b3c647f201101f7e7ac8f36d437e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 11:49:41</sys_created_on>
+        <sys_id>7598b3c647f201101f7e7ac8f36d4381</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 11:49:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_f998b3c647f201101f7e7ac8f36d437e^sys_idNOT INbd98b3c647f201101f7e7ac8f36d4392,f998b3c647f201101f7e7ac8f36d4389"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>roomid_value</element>
         <help/>
-        <hint>Webex Teams roomId (found using developer.webex.com documentation)</hint>
+        <hint/>
         <label>roomId_value</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_input_081d790ddba01010fc011fc7689619fe</name>
+        <name>var__m_sys_hub_action_input_f998b3c647f201101f7e7ac8f36d437e</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-03 10:26:36</sys_created_on>
-        <sys_id>decc07addb285010fc011fc768961921</sys_id>
+        <sys_created_on>2022-04-13 11:49:41</sys_created_on>
+        <sys_id>bd98b3c647f201101f7e7ac8f36d4392</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>roomId_value</sys_name>
         <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
         <sys_policy/>
         <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-03 10:26:36</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:41</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>messagetowebexteams</element>
         <help/>
-        <hint>Message to send to Webex Teams space</hint>
+        <hint/>
         <label>MessageToWebexTeams</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_input_081d790ddba01010fc011fc7689619fe</name>
+        <name>var__m_sys_hub_action_input_f998b3c647f201101f7e7ac8f36d437e</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-03 10:08:29</sys_created_on>
-        <sys_id>f8a80fe9db285010fc011fc768961912</sys_id>
+        <sys_created_on>2022-04-13 11:49:41</sys_created_on>
+        <sys_id>f998b3c647f201101f7e7ac8f36d4389</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>MessageToWebexTeams</sys_name>
         <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
         <sys_policy/>
         <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-03 10:08:29</sys_updated_on>
+        <sys_updated_on>2022-04-13 11:49:41</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>081d790ddba01010fc011fc7689619fe</sys_id>
+        <latest_snapshot>f998b3c647f201101f7e7ac8f36d437e</latest_snapshot>
+    </sys_hub_action_type_definition>
 </record_update>
