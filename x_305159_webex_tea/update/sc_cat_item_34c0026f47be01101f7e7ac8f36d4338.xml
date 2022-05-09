@@ -5,7 +5,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <category display_value="Routing &amp; Switching">773fb5ab47be01101f7e7ac8f36d432c</category>
-        <checked_out/>
+        <checked_out>true</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
@@ -58,7 +58,7 @@
         <short_description>Routing Protocols Configuration (Complex)</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state/>
+        <state>published</state>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-17 18:58:36</sys_created_on>

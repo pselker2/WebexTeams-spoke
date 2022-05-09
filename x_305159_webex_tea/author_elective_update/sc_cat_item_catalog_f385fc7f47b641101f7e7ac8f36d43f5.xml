@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Routing Protocols Configuration (Complex)">7f85b07f47b641101f7e7ac8f36d435b</sc_cat_item>
+        <sc_catalog display_value="CMS Master Service Catalog">2e733def477e01101f7e7ac8f36d43d3</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-18 08:06:58</sys_created_on>
+        <sys_id>f385fc7f47b641101f7e7ac8f36d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMS Master Service Catalog.Routing Protocols Configuration (Complex)</sys_name>
+        <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_f385fc7f47b641101f7e7ac8f36d43f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-18 08:06:58</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</application>
+        <file_path/>
+        <instance_id>16ffd6f1db790590a667cac5059619a0</instance_id>
+        <instance_name>dev126050</instance_name>
+        <name>sc_cat_item_catalog_f385fc7f47b641101f7e7ac8f36d43f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Routing Protocols Configuration (Complex)">7f85b07f47b641101f7e7ac8f36d435b</sc_cat_item><sc_catalog display_value="CMS Master Service Catalog">2e733def477e01101f7e7ac8f36d43d3</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-18 08:06:58</sys_created_on><sys_id>f385fc7f47b641101f7e7ac8f36d43f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CMS Master Service Catalog.Routing Protocols Configuration (Complex)</sys_name><sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package><sys_policy/><sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope><sys_update_name>sc_cat_item_catalog_f385fc7f47b641101f7e7ac8f36d43f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-18 08:06:58</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1323353124</payload_hash>
+        <record_name>CMS Master Service Catalog.Routing Protocols Configuration (Complex)</record_name>
+        <reverted_from/>
+        <source>53024bce473201101f7e7ac8f36d43a5</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-18 08:06:58</sys_created_on>
+        <sys_id>3b85fc7f47b641101f7e7ac8f36d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1803bb5e5080000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-18 08:06:58</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>bf85fc7fd0b64110bfb9e32a8377c5f7</update_guid>
+        <update_guid_history>bf85fc7fd0b64110bfb9e32a8377c5f7:-1323353124</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CMS Master Service Catalog.Routing Protocols Configuration (Complex)">cefed15e4713c1101f7e7ac8f36d4395</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-08 15:48:23</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>d245d177fccc40909285ed306e6da790</sys_id>
+        <sys_metadata>f385fc7f47b641101f7e7ac8f36d43f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMS Master Service Catalog.Routing Protocols Configuration (Complex)</sys_name>
+        <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_scope_delete display_value="">4699a016e7ed4ee4b6c360117de5f031</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_f385fc7f47b641101f7e7ac8f36d43f5</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_f385fc7f47b641101f7e7ac8f36d43f5">3b85fc7f47b641101f7e7ac8f36d43f8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-08 15:48:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
