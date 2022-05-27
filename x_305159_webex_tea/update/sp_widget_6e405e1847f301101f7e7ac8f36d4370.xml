@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope, spUtil) {
+  /* widget controller */
+  var c = this;
+	
+	$scope.catClick = function (sys_id) {
+		c.data.catSys_id = sys_id;
+		c.server.update();
+	};
+	
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>[ng-click],
+[data-ng-click],
+[x-ng-click] {
+  cursor: pointer;
+}
+
+
+.text {
+  min-width: 269px;
+  max-width: 269px;
+}
+
+.textd {
+  min-width: 260px;
+  max-width: 260px;
+  min-height: 100px;
+  max-height: 100px;
+}
+}
+.text, .textd {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.textf {
+  display: -webkit-box;
+  max-width: 200px;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.texte {
+  width:100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+
+  -webkit-column-width: 150px; //You can't use 100%
+  column-width: 150px;
+  height: 100%;
+}
+
+.panel{
+ height: 200px;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>cms_catalog_content_02</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>CMS Catalog Content 02</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+	var ServiceCatalog = '2e733def477e01101f7e7ac8f36d43d3';
+
+	// CMS Service Catalog
+	// f9c353e4479701101f7e7ac8f36d4345
+
+	// 2e733def477e01101f7e7ac8f36d43d3
+
+	if(input) {
+
+		// data.categories = getCategories('2e733def477e01101f7e7ac8f36d43d3');
+		data.categories = getCategories(input.catSys_id);
+		console.log('data.categories.length: ' + data.categories.length);
+		if(data.categories.length == 0 ) {
+			console.log("input: " + input.catSys_id);
+			data.categories = getCategoryItems(input.catSys_id);
+		}
+	}
+	else {
+		data.categories = getCategories();
+	}
+	console.log(JSON.stringify(data.categories));
+	// console.log('op: ' + JSON.stringify(data.categories));
+	// var catalog=new sn_sc.Catalog("2e733def477e01101f7e7ac8f36d43d3");	
+	// console.log('getCategories: ' + JSON.stringify(catalog.getCategories()));
+	// console.log ('Title: ' + JSON.stringify(data));
+	/*
+	nodes = [];
+	data.categories.forEach(function(node){
+
+		if(!node.parent){
+			nodes.push({
+				'title': node.title,
+				'description': node.description,
+				'sys_id': node.sys_id,
+				'children': []
+			});
+		}
+	});
+	console.log(nodes);
+	*/
+
+	function getCategories(cat) {
+
+		var gr = new GlideRecord("sc_category");
+		gr.addQuery("sc_catalog", ServiceCatalog);
+		gr.addActiveQuery();
+		gr.addQuery("sys_class_name", "sc_category");
+		gr.addQuery("parent", cat);
+		gr.orderBy("title");
+		gr.query();
+		var cats = [];
+		while (gr.next()) {
+			var categoryJS = new sn_sc.CatCategory(gr.getUniqueValue() + "");
+			if (!categoryJS.canView()) continue;
+			var c = {};
+			var d = {};
+			$sp.getRecordValues(c, gr, "sys_id,title,parent,description");
+
+			var dd = getCatCategory(c.parent);
+
+			d = {
+				'sc_catalog': dd.sc_catalog,
+				'title': dd.title,
+				'description': dd.description,
+				'child' : [c]
+
+			};
+
+			cats.push(c);
+			// console.log(categoryJS);
+		}
+		return cats;
+	}
+
+	function getCategoryItems(iteam){
+		console.log('in get items: ' + iteam);
+		try {
+			var catItem = new GlideRecord("sc_cat_item");
+			catItem.addActiveQuery();
+			catItem.addQuery('category',iteam);
+			catItem.addJoinQuery("sc_cat_item_category");
+			// catItem.addQuery("sc_category", iteam);
+			catItem.query();
+			var items = [];
+			console.log("Gr catItem: " + JSON.stringify(catItem));
+			while(catItem.next()){
+
+				var item = new sn_sc.CatItem(catItem.getUniqueValue() + "");
+				if (!item.canView()) continue;
+				var c = {};
+				$sp.getRecordValues(c,catItem,"sys_id,name,description");
+				
+				var d = {
+					'sys_id': c.sys_id,
+					'title': c.name,
+					'description': c.description
+				};
+				items.push(d);	
+				console.log(JSON.stringify(d));
+			}
+			/*
+			while(catItem.next()){
+				console.log('catItem sys_id' + catItem.getUniqueValue());
+				var item = new sn_sc.CatItem(catItem.getUniqueValue() + "");
+				if (!item.canView()) continue;
+				var c = {};
+				$sp.getRecordValues(c,catItem,"sys_id,title,parent,description");
+				items.push(c);	
+			}
+			*/
+			return items;
+		} catch (err){
+			console.log("Error: " + err.message);
+		}
+
+		// console.log(JSON.stringify(items));
+		// return items;
+
+
+	}
+
+	function getCatCategory(categorySysId){
+		var categoryRead = new sn_sc.CatCategory(categorySysId);
+		categoryRead.setTableName("sc_category");
+		var values = categoryRead.read({"title" : "", "sc_catalog":"", "description": "", "parent": ""}, false);
+		// gs.info(categorySysId);
+		// gs.info(values.title);
+		// gs.info(values.test);
+		// global.Assert.assertEquals("testValue", values.test,"Category extends sc_category and stores its extended value");
+		return values;
+
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-27 10:47:25</sys_created_on>
+        <sys_id>6e405e1847f301101f7e7ac8f36d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMS Catalog Content 02</sys_name>
+        <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_update_name>sp_widget_6e405e1847f301101f7e7ac8f36d4370</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-27 10:47:25</sys_updated_on>
+        <template><![CDATA[
+
+<div class="container">
+  <div class="row ">
+    <div class="panel panel-default col-xs-3 col-sm-3 col-md-3 col-lg-3" ng-repeat="catlog in c.data.categories">
+      <div class="panel-heading h4 text"><a ng-click=catClick(catlog.sys_id)>{{::catlog.title}}</a></div>
+      <div class="panel-body texte">
+        {{::catlog.description}}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
+<div class="row">
+<div class="col-sm-6 col-md-4" ng-repeat="item in ::c.items" >
+<div class="panel panel-{{::options.color}} b">
+<a target="{{::item.target}}" ng-href="{{::getItemHREF(item)}}" ng-click="onClick($event, item)" class="panel-body block">
+<div class="overflow-100">
+<h4 class="m-t-none m-b-xs">{{::item.name}}<span ng-if="item.content_type == 'external'" aria-label="${External Link}"> ➚</span></h4>
+<img ng-src="{{::item.picture}}" ng-if="::item.picture" alt="{{::item.name}}" class="m-r-sm m-b-sm item-image pull-left" />
+<div class="text-muted item-short-desc">{{::item.short_description}}</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+-->]]></template>
+    </sp_widget>
+</record_update>
