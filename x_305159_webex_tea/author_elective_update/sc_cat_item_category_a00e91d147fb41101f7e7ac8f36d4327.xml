@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="CUCM Upgrade">87ecd11147fb41101f7e7ac8f36d4362</sc_cat_item>
+        <sc_category display_value="CUCM">02f06d9e4713c1101f7e7ac8f36d43c9</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-30 09:41:40</sys_created_on>
+        <sys_id>a00e91d147fb41101f7e7ac8f36d4327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CUCM.CUCM Upgrade</sys_name>
+        <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_update_name>sc_cat_item_category_a00e91d147fb41101f7e7ac8f36d4327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-30 09:41:40</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</application>
+        <file_path/>
+        <instance_id>16ffd6f1db790590a667cac5059619a0</instance_id>
+        <instance_name>dev126050</instance_name>
+        <name>sc_cat_item_category_a00e91d147fb41101f7e7ac8f36d4327</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="CUCM Upgrade">87ecd11147fb41101f7e7ac8f36d4362</sc_cat_item><sc_category display_value="CUCM">02f06d9e4713c1101f7e7ac8f36d43c9</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-30 09:41:40</sys_created_on><sys_id>a00e91d147fb41101f7e7ac8f36d4327</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CUCM.CUCM Upgrade</sys_name><sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package><sys_policy/><sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope><sys_update_name>sc_cat_item_category_a00e91d147fb41101f7e7ac8f36d4327</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-30 09:41:40</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-673397097</payload_hash>
+        <record_name>CUCM.CUCM Upgrade</record_name>
+        <reverted_from/>
+        <source>53024bce473201101f7e7ac8f36d43a5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-30 09:41:40</sys_created_on>
+        <sys_id>ec0e91d147fb41101f7e7ac8f36d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1811457b11b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-30 09:41:40</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>280e91d162fb4110792cab69bfe9bc29</update_guid>
+        <update_guid_history>280e91d162fb4110792cab69bfe9bc29:-673397097</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CUCM.CUCM Upgrade">7065215947fb41101f7e7ac8f36d43e7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-30 10:13:54</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>8686ba3fdff549ea888fa971d71142e1</sys_id>
+        <sys_metadata>a00e91d147fb41101f7e7ac8f36d4327</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CUCM.CUCM Upgrade</sys_name>
+        <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_scope_delete display_value="">4699a016e7ed4ee4b6c360117de5f031</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_a00e91d147fb41101f7e7ac8f36d4327</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_a00e91d147fb41101f7e7ac8f36d4327">ec0e91d147fb41101f7e7ac8f36d4329</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-30 10:13:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

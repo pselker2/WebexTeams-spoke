@@ -4,17 +4,17 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="Routing &amp; Switching">773fb5ab47be01101f7e7ac8f36d432c</category>
-        <checked_out>true</checked_out>
+        <category display_value="MCU">b52b7c55477b41101f7e7ac8f36d43a2</category>
+        <checked_out/>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p>Any change that required config modification to be done on existing neighborship that includes but is not limited to changing Routing policies and route manipulation.</p>]]></description>
+        <description><![CDATA[<p>Reboot</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Monitor Request">e9696016477601101f7e7ac8f36d43c5</flow_designer_flow>
+        <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
@@ -22,12 +22,12 @@
         <image/>
         <location/>
         <mandatory_attachment>false</mandatory_attachment>
-        <meta>BGP,OSPF,EIGRP</meta>
+        <meta/>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Routing Protocols Configuration (Complex)</name>
+        <name>MSE Blades Reboot</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -44,8 +44,8 @@
         <ordered_item_link/>
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=34c0026f47be01101f7e7ac8f36d4338&amp;sysparm_preview=true", "summary");</preview>
-        <price>0</price>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=a5ad65dd47fb41101f7e7ac8f36d43c5&amp;sysparm_preview=true", "summary");</preview>
+        <price>2</price>
         <published_ref/>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
@@ -55,22 +55,22 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <short_description>Routing Protocols Configuration (Complex)</short_description>
+        <short_description>Reboot</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state>published</state>
+        <state/>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-04-17 18:58:36</sys_created_on>
-        <sys_id>34c0026f47be01101f7e7ac8f36d4338</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Routing Protocols Configuration (Complex)</sys_name>
+        <sys_created_on>2022-05-30 10:50:00</sys_created_on>
+        <sys_id>a5ad65dd47fb41101f7e7ac8f36d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MSE Blades Reboot</sys_name>
         <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
         <sys_policy/>
         <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
-        <sys_update_name>sc_cat_item_34c0026f47be01101f7e7ac8f36d4338</sys_update_name>
+        <sys_update_name>sc_cat_item_a5ad65dd47fb41101f7e7ac8f36d43c5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-17 20:33:36</sys_updated_on>
+        <sys_updated_on>2022-05-30 10:50:00</sys_updated_on>
         <template/>
         <template_manager_roles/>
         <type>item</type>
@@ -81,39 +81,39 @@
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=34c0026f47be01101f7e7ac8f36d4338"/>
-    <fx_price action="delete_multiple" query="id=34c0026f47be01101f7e7ac8f36d4338"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=a5ad65dd47fb41101f7e7ac8f36d43c5"/>
+    <fx_price action="delete_multiple" query="id=a5ad65dd47fb41101f7e7ac8f36d43c5"/>
     <fx_price action="INSERT_OR_UPDATE">
-        <amount>0</amount>
-        <currency display_value="USD">USD</currency>
+        <amount>2</amount>
+        <currency display_value="">USD</currency>
         <field>price</field>
-        <id>34c0026f47be01101f7e7ac8f36d4338</id>
+        <id>a5ad65dd47fb41101f7e7ac8f36d43c5</id>
         <parent/>
         <reference_amount>0</reference_amount>
-        <reference_currency display_value="USD">USD</reference_currency>
+        <reference_currency display_value="">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-04-17 18:58:36</sys_created_on>
-        <sys_id>bb118e2f47be01101f7e7ac8f36d43b0</sys_id>
+        <sys_created_on>2022-05-30 10:50:00</sys_created_on>
+        <sys_id>69ad65dd47fb41101f7e7ac8f36d43c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-17 18:58:36</sys_updated_on>
+        <sys_updated_on>2022-05-30 10:50:00</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
-        <currency display_value="USD">USD</currency>
+        <currency display_value="">USD</currency>
         <field>recurring_price</field>
-        <id>34c0026f47be01101f7e7ac8f36d4338</id>
+        <id>a5ad65dd47fb41101f7e7ac8f36d43c5</id>
         <parent/>
         <reference_amount>0</reference_amount>
-        <reference_currency display_value="USD">USD</reference_currency>
+        <reference_currency display_value="">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-04-17 18:58:36</sys_created_on>
-        <sys_id>f3118e2f47be01101f7e7ac8f36d43b1</sys_id>
+        <sys_created_on>2022-05-30 10:50:00</sys_created_on>
+        <sys_id>e1ad65dd47fb41101f7e7ac8f36d43c7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-17 18:58:36</sys_updated_on>
+        <sys_updated_on>2022-05-30 10:50:00</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>

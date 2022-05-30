@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Add/Update User Directory">a00fd1d147fb41101f7e7ac8f36d434c</sc_cat_item>
+        <sc_catalog display_value="CMS Master Service Catalog">2e733def477e01101f7e7ac8f36d43d3</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-30 09:54:33</sys_created_on>
+        <sys_id>5df0a95547fb41101f7e7ac8f36d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMS Master Service Catalog.Add/Update User Directory</sys_name>
+        <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_5df0a95547fb41101f7e7ac8f36d4333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-30 09:54:33</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</application>
+        <file_path/>
+        <instance_id>16ffd6f1db790590a667cac5059619a0</instance_id>
+        <instance_name>dev126050</instance_name>
+        <name>sc_cat_item_catalog_5df0a95547fb41101f7e7ac8f36d4333</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Add/Update User Directory">a00fd1d147fb41101f7e7ac8f36d434c</sc_cat_item><sc_catalog display_value="CMS Master Service Catalog">2e733def477e01101f7e7ac8f36d43d3</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-30 09:54:33</sys_created_on><sys_id>5df0a95547fb41101f7e7ac8f36d4333</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CMS Master Service Catalog.Add/Update User Directory</sys_name><sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package><sys_policy/><sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope><sys_update_name>sc_cat_item_catalog_5df0a95547fb41101f7e7ac8f36d4333</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-30 09:54:33</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1820088554</payload_hash>
+        <record_name>CMS Master Service Catalog.Add/Update User Directory</record_name>
+        <reverted_from/>
+        <source>53024bce473201101f7e7ac8f36d43a5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-30 09:54:33</sys_created_on>
+        <sys_id>91f0a95547fb41101f7e7ac8f36d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18114637e260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-30 09:54:33</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>d9f0a9559bfb4110139ddad3f53ba735</update_guid>
+        <update_guid_history>d9f0a9559bfb4110139ddad3f53ba735:1820088554</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CMS Master Service Catalog.Add/Update User Directory">2df0a95547fb41101f7e7ac8f36d435a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-30 09:54:34</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>2335ab280f9a46568c39767e6f370ff1</sys_id>
+        <sys_metadata>5df0a95547fb41101f7e7ac8f36d4333</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMS Master Service Catalog.Add/Update User Directory</sys_name>
+        <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_scope_delete display_value="">4699a016e7ed4ee4b6c360117de5f031</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_5df0a95547fb41101f7e7ac8f36d4333</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_5df0a95547fb41101f7e7ac8f36d4333">91f0a95547fb41101f7e7ac8f36d4336</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-30 09:54:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

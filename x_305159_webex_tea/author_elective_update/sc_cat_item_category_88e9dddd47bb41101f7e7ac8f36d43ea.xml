@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="IM &amp; Presence Reboot">08e9d59d47bb41101f7e7ac8f36d43fd</sc_cat_item>
+        <sc_category display_value="IM&amp;P">899a7cd1477b41101f7e7ac8f36d43f0</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-30 09:23:36</sys_created_on>
+        <sys_id>88e9dddd47bb41101f7e7ac8f36d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IM&amp;P.IM &amp; Presence Reboot</sys_name>
+        <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_update_name>sc_cat_item_category_88e9dddd47bb41101f7e7ac8f36d43ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-30 09:23:36</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</application>
+        <file_path/>
+        <instance_id>16ffd6f1db790590a667cac5059619a0</instance_id>
+        <instance_name>dev126050</instance_name>
+        <name>sc_cat_item_category_88e9dddd47bb41101f7e7ac8f36d43ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="IM &amp; Presence Reboot">08e9d59d47bb41101f7e7ac8f36d43fd</sc_cat_item><sc_category display_value="IM&amp;P">899a7cd1477b41101f7e7ac8f36d43f0</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-30 09:23:36</sys_created_on><sys_id>88e9dddd47bb41101f7e7ac8f36d43ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IM&amp;P.IM &amp; Presence Reboot</sys_name><sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package><sys_policy/><sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope><sys_update_name>sc_cat_item_category_88e9dddd47bb41101f7e7ac8f36d43ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-30 09:23:36</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1166733671</payload_hash>
+        <record_name>IM&amp;P.IM &amp; Presence Reboot</record_name>
+        <reverted_from/>
+        <source>53024bce473201101f7e7ac8f36d43a5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-30 09:23:36</sys_created_on>
+        <sys_id>84e9dddd47bb41101f7e7ac8f36d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1811447298b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-30 09:23:36</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>cce9ddddadbb4110330812d3832005ec</update_guid>
+        <update_guid_history>cce9ddddadbb4110330812d3832005ec:-1166733671</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="IM&amp;P.IM &amp; Presence Reboot">882a111147fb41101f7e7ac8f36d439f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-30 09:24:42</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>2161ea592ea9482690aad4781ca1a271</sys_id>
+        <sys_metadata>88e9dddd47bb41101f7e7ac8f36d43ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IM&amp;P.IM &amp; Presence Reboot</sys_name>
+        <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_scope_delete display_value="">4699a016e7ed4ee4b6c360117de5f031</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_88e9dddd47bb41101f7e7ac8f36d43ea</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_88e9dddd47bb41101f7e7ac8f36d43ea">84e9dddd47bb41101f7e7ac8f36d43ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-30 09:24:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="TP room reconfiguration">499929d947fb41101f7e7ac8f36d437c</sc_cat_item>
+        <sc_category display_value="CUCM">a7caf855477b41101f7e7ac8f36d436e</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-30 10:32:13</sys_created_on>
+        <sys_id>c59929d947fb41101f7e7ac8f36d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CUCM.TP room reconfiguration</sys_name>
+        <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_update_name>sc_cat_item_category_c59929d947fb41101f7e7ac8f36d4382</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-30 10:32:13</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</application>
+        <file_path/>
+        <instance_id>16ffd6f1db790590a667cac5059619a0</instance_id>
+        <instance_name>dev126050</instance_name>
+        <name>sc_cat_item_category_c59929d947fb41101f7e7ac8f36d4382</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="TP room reconfiguration">499929d947fb41101f7e7ac8f36d437c</sc_cat_item><sc_category display_value="CUCM">a7caf855477b41101f7e7ac8f36d436e</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-30 10:32:13</sys_created_on><sys_id>c59929d947fb41101f7e7ac8f36d4382</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CUCM.TP room reconfiguration</sys_name><sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package><sys_policy/><sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope><sys_update_name>sc_cat_item_category_c59929d947fb41101f7e7ac8f36d4382</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-30 10:32:13</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-178174459</payload_hash>
+        <record_name>CUCM.TP room reconfiguration</record_name>
+        <reverted_from/>
+        <source>53024bce473201101f7e7ac8f36d43a5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-30 10:32:13</sys_created_on>
+        <sys_id>8d99251d47fb41101f7e7ac8f36d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1811485f7fc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-30 10:32:13</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>c599251da3fb4110010b4d6d4739b5cf</update_guid>
+        <update_guid_history>c599251da3fb4110010b4d6d4739b5cf:-178174459</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CUCM.TP room reconfiguration">4af9691d47fb41101f7e7ac8f36d4363</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-30 10:33:55</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>87bcbe40439b40b38bd9674bdf6d5c19</sys_id>
+        <sys_metadata>c59929d947fb41101f7e7ac8f36d4382</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CUCM.TP room reconfiguration</sys_name>
+        <sys_package display_value="Webex Teams Spoke" source="x_305159_webex_tea">c74ab589dba01010fc011fc7689619df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Webex Teams Spoke">c74ab589dba01010fc011fc7689619df</sys_scope>
+        <sys_scope_delete display_value="">4699a016e7ed4ee4b6c360117de5f031</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_c59929d947fb41101f7e7ac8f36d4382</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_c59929d947fb41101f7e7ac8f36d4382">8d99251d47fb41101f7e7ac8f36d43cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-30 10:33:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
